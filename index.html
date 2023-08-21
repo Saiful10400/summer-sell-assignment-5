@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summer sale</title>
+    <!-- talwind css and daisy ui cdn link. -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font awesome cdn link. -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google font adn default css. -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
+
+        .work-sans {
+            font-family: 'Work Sans', sans-serif;
+        }
+    </style>
+
+</head>
+
+<body class="work-sans bg-[#F8F8F8]">
+
+    <!-- banner section. -->
+
+    <section class=" py-16 bg-[#F9F6E2]">
+
+        <section class="flex flex-col gap-3 lg:gap-0 lg:flex-row w-[80%] mx-auto">
+            <div class="bannerTitle w-full lg:w-1/2 flex justify-center items-center flex-col">
+                <h3 class="text-xl lg:text-3xl font-medium lg:mb-11">---SALE FEVER---</h3>
+                <h1 class=" my-3 lg:mb-16 text-2xl text-center lg:text-6xl font-semibold">Purchase TK 200 or above & get
+                    <span class="text-[#E527B2]">20% off</span></h1>
+
+                <div class="lg:block flex flex-col">
+                    <span class="text-sm lg:text-2xl font-medium lg:mr-4">Use Promo Code</span>
+                    <button
+                        class="lg:text-2xl lg:font-semibold text-white bg-[#E527B2]  lg:px-6 lg:py-4 rounded-md lg:rounded-lg">SELL200</button>
+                </div>
+            </div>
+            <div class="bannerImg  w-full lg:w-1/2 ">
+                <img class="w-[70%] mx-auto " src="images/Summer 1.png" alt="">
+            </div>
+        </section>
+
+    </section>
+
+
+    <!-- product section. -->
+
+    <section class="w-[90%] lg:w-[80%] mx-auto items-center lg:items-start flex-col lg:flex-row flex mt-28 gap-5 ">
+
+
+
+
+
+
+
+
+        <!-- card section. -->
+        <section class="w-[75%]">
+
+            <!-- kitchen products. -->
+            <section class="">
+                <h3 class="text-[40px] font-semibold mb-8">Kitchenware</h3>
+
+
+                <section class="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 gap-5">
+
+
+                    <div id="kitchenProduct1" onclick="assignValu(this)" class="p-5 bg-white rounded-xl">
+                        <figure class="rounded-xl bg-[#f3f3f3] py-8">
+                            <img class="mx-auto" src="images/prod1.png" alt="">
+                        </figure>
+                        <div class="star text-[#FFC107] text-center mt-6">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+
+                        </div>
+                        <h1 class="text-center font-semibold text-xl my-2">K. Accessories</h1>
+                        <h3 class="text-center font-normal text-xl text-[#888888] ">39.00 TK</h3>
+                    </div>
+
+
+                    <div onclick="assignValu(this)" class="p-5 bg-white rounded-xl">
+                        <figure class="rounded-xl bg-[#f3f3f3] py-8">
+                            <img class="mx-auto" src="images/prod2.png" alt="">
+                        </figure>
+                        <div class="star text-[#FFC107] text-center mt-6">
+
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+
+                        </div>
+                        <h1 class="text-center font-semibold text-xl my-2">K. Accessories 2</h1>
+                        <h3 class="text-center font-normal text-xl text-[#888888] ">25.00 TK</h3>
+                    </div>
+
+
+                    <div onclick="assignValu(this)" class="p-5 bg-white rounded-xl">
+                        <figure class="rounded-xl bg-[#f3f3f3] py-8">
+                            <img class="mx-auto" src="images/prod3.png" alt="">
+                        </figure>
+                        <div class="star text-[#FFC107] text-center mt-6">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+
+                            <i class="fa-regular fa-star"></i>
+
+                        </div>
+                        <h1 class="text-center font-semibold text-xl my-2">Home Cooker</h1>
+                        <h3 class="text-center font-normal text-xl text-[#888888] ">49.00 TK</h3>
+                    </div>
+
+
+
+
+
+                </section>
+
+
+
+            </section>
+
+            <!-- footware section -->
+            <section class="mt-14">
+                <h3 class="text-[40px] font-semibold mb-8">Sportswear</h3>
+
+
+                <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+
+
+                    <div onclick="assignValu(this)" class="p-5 bg-white rounded-xl">
+                        <figure class="rounded-xl bg-[#f3f3f3] py-8">
+                            <img class="mx-auto" src="images/prod4.png" alt="">
+                        </figure>
+                        <div class="star text-[#FFC107] text-center mt-6">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+
+                        </div>
+                        <h1 class="text-center font-semibold text-xl my-2">Sports Back Cap</h1>
+                        <h3 class="text-center font-normal text-xl text-[#888888] ">49.00 TK</h3>
+                    </div>
+
+
+                    <div onclick="assignValu(this)" class="p-5 bg-white rounded-xl">
+                        <figure class="rounded-xl bg-[#f3f3f3] py-8">
+                            <img class="mx-auto" src="images/prod5.png" alt="">
+                        </figure>
+                        <div class="star text-[#FFC107] text-center mt-6">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+
+                            <i class="fa-regular fa-star"></i>
+
+                        </div>
+                        <h1 class="text-center font-semibold text-xl my-2">Full Jersey Set</h1>
+                        <h3 class="text-center font-normal text-xl text-[#888888] ">69.00 TK</h3>
+                    </div>
+
+
+                    <div onclick="assignValu(this)" class="p-5 bg-white rounded-xl">
+                        <figure class="rounded-xl bg-[#f3f3f3] py-8">
+                            <img class="mx-auto" src="images/prod6.png" alt="">
+                        </figure>
+                        <div class="star text-[#FFC107] text-center mt-6">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+
+                        </div>
+                        <h1 class="text-center font-semibold text-xl my-2">Sports cates</h1>
+                        <h3 class="text-center font-normal text-xl text-[#888888] ">159.00 TK</h3>
+                    </div>
+
+
+
+
+
+                </section>
+
+
+
+            </section>
+
+            <!-- furniture section. -->
+            <section class="mt-14">
+                <h3 class="text-[40px] font-semibold mb-8">Furniture</h3>
+
+
+                <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+
+
+                    <div onclick="assignValu(this)" class="p-5 bg-white rounded-xl">
+                        <figure class="rounded-xl bg-[#f3f3f3] py-8">
+                            <img class="mx-auto" src="images/prod7.png" alt="">
+                        </figure>
+                        <div class="star text-[#FFC107] text-center mt-6">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+
+                        </div>
+                        <h1 class="text-center font-semibold text-xl my-2">Single Relax Chair</h1>
+                        <h3 class="text-center font-normal text-xl text-[#888888] ">185.00 TK</h3>
+                    </div>
+
+
+                    <div onclick="assignValu(this)" class="p-5 bg-white rounded-xl">
+                        <figure class="rounded-xl bg-[#f3f3f3] py-8">
+                            <img class="mx-auto" src="images/prod8.png" alt="">
+                        </figure>
+                        <div class="star text-[#FFC107] text-center mt-6">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+
+
+                        </div>
+                        <h1 class="text-center font-semibold text-xl my-2">Children play</h1>
+                        <h3 class="text-center font-normal text-xl text-[#888888] ">299.00 TK</h3>
+                    </div>
+
+
+                    <div onclick="assignValu(this)" class="p-5 bg-white rounded-xl">
+                        <figure class="rounded-xl bg-[#f3f3f3] py-8">
+                            <img class="mx-auto" src="images/prod9.png" alt="">
+                        </figure>
+                        <div class="star text-[#FFC107] text-center mt-6">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+
+
+                        </div>
+                        <h1 class="text-center font-semibold text-xl my-2">Flexible Sofa</h1>
+                        <h3 class="text-center font-normal text-xl text-[#888888] ">339.00 TK</h3>
+                    </div>
+
+
+
+
+
+                </section>
+
+
+
+            </section>
+
+        </section>
+
+
+
+
+
+
+
+        <!-- cart section. -->
+        <section class="w-full lg:w-[25%]  lg:mt-18 ">
+
+            <!-- cupon section. -->
+
+            <section class="bg-white p-6 rounded-lg mb-6">
+
+                <h1 class="text-2xl font-medium mb-4">Have coupon?</h1>
+                <section class=" flex">
+                    <input id="smalinput" disabled placeholder="Coupon code" type="text"
+                        class=" w-[60%] py-4 pl-4 text-xl font-normal rounded-l-lg border-2 border-gray-200 outline-none">
+                    <button onclick="applyCupon()" disabled id="smallBtn"
+                        class=" border-none outline-none w-[40%] text-white  text-xl font-semibold bg-[#E527B2] rounded-r-lg">Apply</button>
+                </section>
+            </section>
+
+            <section class="bg-white p-6 rounded-lg">
+
+                <!-- product list -->
+                <section class="border-b-2 pb-6 text-2xl" id="productadding"></section>
+
+                <!-- products price. -->
+
+                <section class="text-2xl font-semibold">
+                    <section class="border-b-2 py-6">
+                        <h1>Total price: <span class="text-gray-500 font-light" id="totalPrice"></span></h1>
+                        <h1>Discount: <span class="text-gray-500 font-light" id="Discount"></span></h1>
+                        <h1>Total: <span class="text-gray-500 font-light" id="total"></span></h1>
+                    </section>
+
+
+                    <!-- Open the modal using ID.showModal() method -->
+
+                    <dialog id="my_modal_1" class="modal">
+                        <form method="dialog" class="modal-box">
+                            <section class="flex flex-col justify-center items-center">
+                                <img src="./images/congo.png" alt="">
+                                <h1 class="text-3xl lg:text-5xl font-bold mt-10">Congratulations</h1>
+                                <p class="text-base lg:text-xl font-normal mt-4">Your Purchase the product</p>
+                            </section>
+                            <div class="modal-action flex justify-center items-center mt-10">
+                                <!-- if there is a button in form, it will close the modal -->
+                                <button  id="homeBtn" class="btn text-white bg-[#E527B2]">Go Home</button>
+                            </div>
+                        </form>
+                    </dialog>
+
+                    <button onclick="my_modal_1.showModal()" disabled id="bigBtn" class="text-white bg-[#E527B2] w-full py-4 rounded-lg mt-6">Make
+                        Purchase</button>
+                </section>
+
+
+            </section>
+        </section>
+
+    </section>
+
+
+
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
